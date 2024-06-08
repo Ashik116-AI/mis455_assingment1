@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 133, 14);
+
+}
+
+.first  .Paragraph p {
+    border: 3px solid rgb(132, 10, 197);
+    background-color: rgb(13, 158, 158);
+    box-shadow: 4px 6px 3px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.first .Paragraph p {
+    width: 580px;
+    height: 450;
+    font-size: 20;
+    display: flex;
+    grid-template-columns: repeat(2,1fr)
+}
+.first img{
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+
+.last  .Paragraph p {
+    border: 3px solid rgb(132, 10, 197);
+    background-color: rgb(13, 158, 158);
+    box-shadow: 4px 6px 3px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.last img {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.last .Paragraph p {
+    width: 600px;
+    height: 400;
+    font-size: 20;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    float: inline-end;
+
+}
+.last .Paragraph p{
+    float: right;
+}

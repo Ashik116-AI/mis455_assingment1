@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(187, 32, 8);
+}
+
+.first .Paragraph p {
+    border: 3px solid rgb(11, 219, 18);
+    background-color: rgb(42, 16, 207);
+    box-shadow: 4px 6px 3px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.first img {
+    width: 450px;
+    height: 450px;
+    float : right
+}
+.first .Paragraph p {
+    width: 580px;
+    height: 450;
+    font-size: 20;
+    display: flex;
+    grid-template-columns: repeat(2,1fr)
+}
+
+.last  .Paragraph p {
+    border: 3px solid rgb(239, 5, 5);
+    background-color: rgb(108, 10, 205);
+    box-shadow: 4px 6px 3px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.last img {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.last .Paragraph p {
+    width: 600px;
+    height: 400;
+    font-size: 20;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    float: inline-end;
+
+}
+.last .Paragraph p{
+    float: right;
+}
